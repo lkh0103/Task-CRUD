@@ -17,11 +17,11 @@ function App() {
   }, [])
 
 
-  // const loadUser = () => {
-  //   api('https://api.github.com/users')
-  //     .then(console.log)
-  //     .catch(console.error)
-  // }
+  const loadUser = () => {
+    api('https://api.github.com/users')
+      .then(console.log)
+      .catch(console.error)
+  }
 
 
 
@@ -34,6 +34,7 @@ function App() {
           <Route path='/request' element={<Request />} />
           {/* <Route path='/request2' element={Request2}/> */}
         </Routes>
+        <p>Helo Test</p>
       </div>
     </LoggerProvider>
 
