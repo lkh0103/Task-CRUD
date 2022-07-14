@@ -17,11 +17,11 @@ function App() {
   }, [])
 
 
-  const loadUser = () => {
-    api('https://api.github.com/users')
-      .then(console.log)
-      .catch(console.error)
-  }
+  // const loadUser = () => {
+  //   api('https://api.github.com/users')
+  //     .then(console.log)
+  //     .catch(console.error)
+  // }
 
 
 
