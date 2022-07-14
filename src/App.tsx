@@ -23,7 +23,6 @@ function App() {
       .catch(console.error)
   }
 
-  if (loading) return <div>Loading</div>
 
 
   return (
