@@ -1,17 +1,11 @@
 # 1. For build React app
-FROM node:lts AS development
-# Set working directory
+FROM node:lts AS build
 WORKDIR /app
-#
-COPY package.json /app/package.json
-COPY package-lock.json /app/package-lock.json
-# Same as npm install
+COPY package*.json .
 RUN npm ci
 COPY . .
-# ENV CI=true
-CMD [ "npm", "start" ]
-FROM development AS build
 RUN npm run build
+
 # 2. For Nginx setup
 FROM nginx:alpine
 # Copy config nginx
