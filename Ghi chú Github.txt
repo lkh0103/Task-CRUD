@@ -59,7 +59,7 @@ cách gởi code từ (nhánh phụ 1 hoặc 2,3...) lên nhánh chính (main/ma
 	*	cách kéo code về từ Server Github xuống local (computer):
 
 		+	git checkout (nhánh main/master)		: để trở về lại nhánh main/master
-		+	git pull						: để kéo code về từ Server Github xuống local (computer) update lại code ở nhánh chính main/master giống trên github
+		+	git pull						        : để kéo code về từ Server Github xuống local (computer) update lại code ở nhánh chính main/master giống trên github
 
 
 
