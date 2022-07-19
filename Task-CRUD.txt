@@ -19,7 +19,7 @@ Yêu cầu:
 + Hiển thị các nội dung ở dạng table với header và body
 + Có hiển thị phân trang
 + Lựa chọn số dòng hiển thị
-+ Có tìm kiếm
++ Có tìm kiếm 
 + Nếu người dùng truy cập đường dẫn có các tham số thì phải hiển thị theo các tham số này. Ví dụ: search=x&page=1&limit=10
 + Cấu hình hiển thị nội dung cho header và từng dòng body. Nếu ko cấu hình hiển thị mặc định.
 
